@@ -8,10 +8,12 @@ driver.get("https://qa-challenge.codesubmit.io/")
 element = driver.find_element(By.ID, "user-name")
 element.clear()
 element.send_keys("locked_out_user")
+time.sleep(1)
 
 element = driver.find_element(By.ID, "password")
 element.clear()
 element.send_keys("secret_sauce")
+time.sleep(1)
 
 element = driver.find_element(By.ID, "login-button")
 element.click()
