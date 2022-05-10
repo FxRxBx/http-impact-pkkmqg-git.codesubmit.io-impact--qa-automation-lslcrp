@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 import time
 
 driver = webdriver.Chrome('/Users/fxrxbx/Downloads/chromedriver')
@@ -17,13 +18,7 @@ time.sleep(1)
 
 element = driver.find_element(By.ID, "login-button")
 element.click()
-time.sleep(3)
-element = driver.find_element(By.ID, "item_4_img_link")
-element.click()
-time.sleep(3)
-element = driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack")
-element.click()
-time.sleep(3)
+time.sleep(1)
 
 element = driver.find_element(By.ID, "item_4_img_link")
 element.click()
@@ -147,3 +142,5 @@ time.sleep(1)
 element = driver.find_element(By.ID, "back-to-products")
 element.click()
 time.sleep(1)
+
+driver.quit()
