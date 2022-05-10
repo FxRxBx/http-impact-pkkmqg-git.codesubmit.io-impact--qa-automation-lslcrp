@@ -7,7 +7,7 @@
 
 Testing scenario Information : This description for each type of user best describes the test results of each automated test.
 
-TEST RESULTS for Problem User Login ->
+TEST RESULTS for Problem User Login ->(Mostly manually Tested)
 
 #Fails
 Product images are incorrect , as they do not show the actual products and when the image link is clicked different product names are displayed.
