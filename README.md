@@ -2,12 +2,12 @@
 
 # PLEASE NOTE: Project was tested using the latest versions Selenium and Python on PyCharm and the Chrome web driver.
 
-# Test Case Steps are commented in the code for reference
+# UI and Functionality Testing was applied in this Test plan
 
 
-Testing scenario Information
+Testing scenario Information : This description for each type of user best describes the test results of each automated test.
 
-TEST RESULTS for Problem User Login
+TEST RESULTS for Problem User Login ->
 
 #Fails
 Product images are incorrect , as they do not show the actual products and when the image link is clicked different product names are displayed.
@@ -33,7 +33,7 @@ Semi Successful Test , User is able to perform all website processes but the per
 
 
 
-#TEST RESULTS for Performance User
+#TEST RESULTS for Locked out User
  The user is unable to login because they are locked out and an error message is displayed "Epic Sadface : Sorry, this user has been locked out."
 
 
