@@ -71,3 +71,16 @@ time.sleep(1)
 
 element = driver.find_element(By.ID, "logout_sidebar_link")
 element.click()
+
+element = driver.find_element(By.ID, "user-name")
+element.clear()
+element.send_keys("standard_user")
+
+element = driver.find_element(By.ID, "password")
+element.clear()
+element.send_keys("secret_sauce")
+time.sleep(1)
+
+element = driver.find_element(By.ID, "login-button")
+element.click()
+time.sleep(1)
