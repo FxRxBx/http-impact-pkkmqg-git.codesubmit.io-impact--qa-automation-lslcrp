@@ -475,6 +475,7 @@ time.sleep(1)
 element = driver.find_element(By.ID, "logout_sidebar_link")
 element.click()
 time.sleep(1)
+driver.quit()
 
 
 
